@@ -80,7 +80,7 @@ For me, these 9 commands have pretty much worked out more than enough in every s
 Now let's talk about Virtual Environment.
 Just like I told you before Conda is the ultimate Super cool Dude and more than the other half of ANA-CONDA , it manages the virtual environment of it effectively and efficiently.By default, Anaconda comes up with an environment called ‘base’ and initially in Anaconda your Presence in Base Environment looks like this.
 
--------------------------------------------------------
+![](https://github.com/mehra-deepak/blog/blob/gh-pages/img/anaocnda.PNG)
 
 1) Now to create a new Environment say ‘my_app’ where my_app is my Environment name for a project for my python app, all you need to type is :
 
@@ -92,7 +92,9 @@ conda create --name my_app
 conda activate my_app
 ```
 Once it has been activated and you enter into the environment it will be indicated as :
---------------------------------------------------------
+
+![](https://github.com/mehra-deepak/blog/blob/gh-pages/img/anaconda2.PNG)
+
 3) The packages can be installed similarly and the rest of the Package Management remains the same as described in the Package Management part, except for the fact that packages installed in this environment are closely isolated to the specific environment.
 
 4) To fetch the environments being created using:
@@ -101,21 +103,21 @@ conda env list
 ```
 5) Once the Environment is created and all the dependencies have been installed and the project is done, to mark a check on the version of dependencies used in the project, the environment can be exported to a yml file as:
 ```
-Conda env export> environment.yaml
+conda env export> environment.yaml
 ```
 The ```environment.yaml``` file so contains all the information of the packages and version stacked up all together in one place.
 
 6) To create an Environment from a yml file use:
 ```
-Conda env create –f environment.yaml
+conda env create –f environment.yaml
 ```
 7) Once the work is done to quit the Environment use:
 ```
-Conda deactivate
+conda deactivate
 ```
 8) Once the whole Project is Done you might want to remove the environment, to do so use:
 ```
-Conda env remove –n my_app
+conda env remove –n my_app
 ```
 *P.S: All the commands have been used regarding Dummy Environment ‘my_app’ and can be replaced with the environment you want to create.*
 
