@@ -130,6 +130,7 @@ That being said, allow me to leave for the day and if you got any queries please
 Thank you and Happy Learning.
 
 Courtesy: 
+---------
 1) [Anaconda Documentation](https://docs.anaconda.com/)
 2) [Python 3 Documentation](https://docs.python.org/3/tutorial/venv.html)
 3) [Udacity Deep Learning NanoDegree Program](https://www.udacity.com/course/deep-learning-nanodegree--nd101)
