@@ -18,7 +18,8 @@ the end for Python Development, however, having already boggled a lot over youtu
 in time he asked me to explain the same.
 
 Here’s what I told him in the easiest of language I could ever speak :
-Virtual Environment: A virtual environment is an isolated working copy of Python which allows you to 
+
+__Virtual Environment__: A virtual environment is an isolated working copy of Python which allows you to 
 work on a specific project without worry of affecting other projects. It enables multiple side by side
 installations of python one for each project. It’s is just a clever way of isolating the dependencies
 and requirements for each project.
@@ -27,7 +28,8 @@ To make things simpler I used Dodo the Duck for those of you who don’t know an
 So suppose Dodo was working on a project that used Python 3 but now his boss told him to work coherently on the second project that needs python 2, now every time he needs to switch between his work, it won’t be convenient for him to Uninstall his Python Version and Reinstall the one according to his usage.But Dodo is smart he makes use of Virtual Environment and creates two different Virtual Environment, one for the project using Python 3 and the other for the project that uses Python 2.
 This way his dependencies do not overlap, projects remain isolated and workflow becomes easy.
 Now that we have understood about Virtual Environment Let’s understand Python's Package Management System.
-Package Management: Before delving deeper into Package Management we should first understand what a package is, so no diplomacy keeping things simple Numpy is a package, Matplotlib is a package, Pandas is Package by definition a package is a collection of python modules wherein a module is a single python file.
+
+__Package Management__: Before delving deeper into Package Management we should first understand what a package is, so no diplomacy keeping things simple Numpy is a package, Matplotlib is a package, Pandas is Package by definition a package is a collection of python modules wherein a module is a single python file.
 So essentially and automatically Package management means being able to handle the packages effectively.
 Now, most of the python packages are stacked up at the Python Package Index (PyPI) and can be installed by making use of Package Managers, ‘pip’ is one of the most popular.
 
@@ -117,12 +119,19 @@ conda deactivate
 ```
 8) Once the whole Project is Done you might want to remove the environment, to do so use:
 ```
-conda env remove –n my_app
+conda env remove -–name my_app
 ```
+but before you remove the environment please make sure it has been deactivated already.
+
 *P.S: All the commands have been used regarding Dummy Environment ‘my_app’ and can be replaced with the environment you want to create.*
 
 That’s all a few commands and a basic understanding and you are ready for your neat development.
 That being said, allow me to leave for the day and if you got any queries please do not hesitate to reach out.
 Thank you and Happy Learning.
+
+Courtesy: 
+1) [Anaconda Documentation](https://docs.anaconda.com/)
+2) [Python 3 Documentation](https://docs.python.org/3/tutorial/venv.html)
+3) [Udacity Deep Learning NanoDegree Program](https://www.udacity.com/course/deep-learning-nanodegree--nd101)
 
 
