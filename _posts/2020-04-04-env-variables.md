@@ -2,6 +2,8 @@
 title: Environment Variables and Package Management using Anaconda
 ---
 
+![](https://github.com/mehra-deepak/blog/blob/gh-pages/img/Python%20Vnv.PNG)*Image by [Real Python](https://realpython.com/)* 
+
 Hola Folks Welcome.
 
 So if you are here your today’s read is on Python’s Package Management System and Virtual Environment, thanks for showing interest now sit right back, hold your cup of coffee and keep that pack of snacks 5 meters apart, because this is going to be short and for the period we don’t want any disturbance.
